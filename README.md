@@ -1,1 +1,2 @@
-# ciencia-POO
+# ciencia de la computacion 1
+

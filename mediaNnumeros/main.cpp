@@ -13,27 +13,28 @@ int main()
     for(int i=1;i<=n;i++)
     {
         float num;
-        //float num_men;
-        //float temp=num;
         cout<<"intgrese un numero: ";cin>>num;
         suma=suma+num;
-        if(i>1){
+        if(i<=1){
             num_men=num;
-        }else{
-            if(num<num_men)
-                num_men=num;
+            num_may=num;
+        } else {
+            num_men = (num<num_men) ? num : num_men;
+            num_may = (num>num_may) ? num : num_may;
         }
     }
 
-    cout<<"la suma es: "<<suma<<endl;
+    //cout<<"la suma es: "<<suma<<endl;
     media=suma/n;
     cout<<"la media es: "<<media<<endl;
-    cout<<"el menor es: "<<num_men;
+    cout<<"el menor es: "<<num_men<<endl;
+    cout<<"el mayor es: "<<num_may;
 
     return 0;
 }
 
 
+/*
 int main(){
     int n,mayor,menor;
     double acumula=0.0;
@@ -46,7 +47,7 @@ int main(){
             mayor =valor;
             menor
 }
-
+*/
 
 
 

@@ -3,7 +3,7 @@
 using namespace std;
 
 
-//Calcula la suma de todos los múltiplos de 3 o 5 por debajo de 1000.
+//Calcula la suma de todos los mÃºltiplos de 3 o 5 por debajo de 1000.
 int main() {
     unsigned i, sum;
     sum = 0;
@@ -17,7 +17,7 @@ int main() {
 
 
 
-//Considerando los términos en la secuencia de Fibonacci cuyos valores no exceden los cuatro millones, encuentre la suma de los términos pares.
+//Considerando los tÃ©rminos en la secuencia de Fibonacci cuyos valores no exceden los cuatro millones, encuentre la suma de los tÃ©rminos pares.
 int main()
 {
     int a=1,b=2,temp,sum=0;
@@ -34,7 +34,7 @@ int main()
 }
 
 
-//¿Cuál es el factor primo más grande del número 600851475143?
+//Â¿CuÃ¡l es el factor primo mÃ¡s grande del nÃºmero 600851475143?
 int main()
 {
     long long int i, resultado;
@@ -48,12 +48,12 @@ int main()
            i = 2;
         }
     }
-    cout<<"el factor primo más grande del número 600851475143 es  "<< maxvalor ;
+    cout<<"el factor primo mÃ¡s grande del nÃºmero 600851475143 es  "<< maxvalor ;
     return 0;
 }
 
 
-//Encuentra el palíndromo más grande fabricado con el producto de dos números de 3 dígitos.
+//Encuentra el palÃ­ndromo mÃ¡s grande fabricado con el producto de dos nÃºmeros de 3 dÃ­gitos.
 int palindromo(unsigned int n);
 int main(void)
 {
@@ -82,7 +82,7 @@ int palindromo(unsigned int n)
 
 
 
-//¿Cuál es el número positivo más pequeño que es divisible por todos los números del 1 al 20?
+//Â¿CuÃ¡l es el nÃºmero positivo mÃ¡s pequeÃ±o que es divisible por todos los nÃºmeros del 1 al 20?
 bool calcular(int numero, int n) {
     if (n == 0) {
         return true;
@@ -96,5 +96,5 @@ int main() {
     while (!calcular(resultado, numero)) {
         resultado += numero;
     }
-    std::cout << resultado << '\n';
+    cout << resultado << '\n';
 }

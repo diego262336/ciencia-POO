@@ -17,7 +17,8 @@ int main() {
 
 
 
-//Considerando los términos en la secuencia de Fibonacci cuyos valores no exceden los cuatro millones, encuentre la suma de los términos pares.
+//Considerando los términos en la secuencia de Fibonacci cuyos valores no exceden los cuatro millones,
+//encuentre la suma de los términos pares.
 int main()
 {
     int a=1,b=2,temp,sum=0;

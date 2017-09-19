@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1505405896 source:c:\users\alumno-d\desktop\practicalab\main.cpp
+	<iostream>
+	<cstring>
+
+1505796552 source:d:\practicalab\main.cpp
+	<iostream>
+	<cstring>
+	<stdio.h>
+

@@ -6,7 +6,7 @@ using namespace std;
 class Equipo
 {
     public:
-        Jugador equipo[20];
+        Jugador equipo[11];
         int tam;
         Equipo();
         void ingresar_tamanio_equipo();

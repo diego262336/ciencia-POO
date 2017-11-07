@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1509632662 source:c:\users\alumno-d\desktop\poligono\src\cuadrado.cpp
+	"cuadrado.h"
+	<iostream>
+
+1509632662 c:\users\alumno-d\desktop\poligono\include\cuadrado.h
+	"poligono.h"
+
+1509632662 source:c:\users\alumno-d\desktop\poligono\src\rectangulo.cpp
+	"rectangulo.h"
+	<iostream>
+
+1509632662 c:\users\alumno-d\desktop\poligono\include\rectangulo.h
+	"poligono.h"
+
+1509632662 source:c:\users\alumno-d\desktop\poligono\main.cpp
+	<iostream>
+	"poligono.h"
+	"triangulo.h"
+	"rectangulo.h"
+	"cuadrado.h"
+	<iostream>
+
+1509632662 c:\users\alumno-d\desktop\poligono\include\poligono.h
+
+1509632662 c:\users\alumno-d\desktop\poligono\include\triangulo.h
+	"poligono.h"
+
+1509632662 source:c:\users\alumno-d\desktop\poligono\src\poligono.cpp
+	"poligono.h"
+	<iostream>
+
+1509632662 source:c:\users\alumno-d\desktop\poligono\src\triangulo.cpp
+	"triangulo.h"
+	"poligono.h"
+	<iostream>
+
+1510065106 source:c:\users\alumno-d\desktop\poligono\src\arraypoligono.cpp
+	"ArrayPoligono.h"
+	"poligono.h"
+	<iostream>
+
+1510066487 c:\users\alumno-d\desktop\poligono\include\arraypoligono.h
+	"poligono.h"
+	<iostream>
+

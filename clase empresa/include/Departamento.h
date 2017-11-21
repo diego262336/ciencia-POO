@@ -7,9 +7,9 @@ using namespace std;
 class Departamento
 {
     public:
-        string logistica="Logistica"; //20%
-        string RRHH="RRHH"; //5%
-        string almacen="Almacen"; //10%
+        string logistica="Logistica"; 
+        string RRHH="RRHH"; 
+        string almacen="Almacen"; 
 
         void print();
 };
